@@ -1,0 +1,242 @@
+ /* All Common Css Start  */
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ ul,ol{
+    list-style-type: none;
+ }
+ 
+ a{
+    text-decoration: none;
+    display: block;
+
+ }
+ .container{
+    width: 1170px;
+    margin: 0 auto;
+ }
+/* All Common Css End  */
+
+/* Top Header Part Start  */
+#topHeader{
+    padding: 25px 0;
+    background: #3E3E3E;
+}
+
+.topHeaderConatiner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topHeaderLeft{
+    display: flex;
+    gap: 25px;
+}
+
+.topHeaderLeft{
+     color: #fff;
+     font-size: 12px;
+     font-family: "Open Sans", sans-serif;
+     font-weight: 400;
+     vertical-align: middle;
+}
+
+.topHeaderLeft i{
+    margin-right: 12px;
+    font-size: 15px;
+    display: inline-block;
+    
+}
+
+.topHeaderRight a{
+     color: #fff;
+    margin-right: 22px;
+    transition: .4s;
+    display: inline-block;
+}
+
+.topHeaderRight a :hover{
+    color: #F8B864;
+}
+/* Top Header Part End  */
+
+
+/* Header Part Start  */
+.headerPart{
+
+}
+.logo{
+    padding-top: 14px;
+}
+.logoWithMenu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a{
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color:  #555555;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 29px;
+    line-height: 80px;
+    transition: 0.4s;
+}
+.menu ul li a:hover{
+    color: #d67c05;
+}
+/* Header Part End  */
+
+/* banner Part Start  */
+#bannerPart{
+ 
+  background: url(../images/2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+.bannerOverly{
+    background: rgb(0, 0, 0,0.2);
+    padding-top: 260px;
+    padding-bottom: 310px;
+}
+
+.bannerContent{
+    text-align: center;
+    color: #fff;
+}
+
+.bannerContent h3{
+    font-size: 30px;
+    font-weight:700;
+    font-family:"Roboto Slab", serif;
+}
+
+.bannerContent span{
+    color: #F8B864;
+}
+
+.bannerContent h1{
+    font-size: 60px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+}
+
+.bannerContent p{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    padding: 0 250px;
+    line-height: 30px;
+}
+
+.bannerContent a{
+    padding: 15px 35px;
+    background: #F8B864;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+
+    color: #fff;
+    transition: 0.4s;
+}
+
+.bannerContent a:hover{
+    color: #777;
+    background: #fff;
+}
+/* banner Part End  */
+
+/* Goal Part Start  */
+#goalPart{
+    height: 650px;
+    
+}
+
+.cardPart{
+    position: relative;
+}
+.card{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    width: 100%;
+    background: #fff;
+}
+
+.cardText{
+    text-align: center;
+}
+
+.cardImages{
+    margin-top: 30px;
+ position: relative;
+ display: inline-block;
+ margin-bottom: 15px;
+}
+
+.cardImages::before{
+    position: absolute;
+    width: 165px;
+    height: 1px;
+    background: #dddddd;
+    content: "";
+     left: -205px;
+     top: 50%;
+}
+
+.cardImages::after{
+    position: absolute;
+    width: 165px;
+    height: 1px;
+    background: #dddddd;
+    content: "";
+     right: -205px;
+     top: 50%;
+}
+.cardItemPart{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-between;
+    
+}
+.cardItem{
+    width: 30%;
+    text-align: center;
+}
+
+.cardItem i{
+    font-size: 50px;
+    color: #ddd;
+}
+/* Goal Part End  */
+
+/* Header Part Start  */
+/* Header Part End  */
+
+/* Header Part Start  */
+/* Header Part End  */
+
+/* Header Part Start  */
+/* Header Part End  */
+
+/* Header Part Start  */
+/* Header Part End  */
+
+/* Header Part Start  */
+/* Header Part End  */
+
